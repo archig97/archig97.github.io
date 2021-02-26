@@ -1,0 +1,102 @@
+body{
+    margin:auto;
+}
+
+
+.box1{
+    width:300px;
+    height:400px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 2px 4px 2px 2px gray;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+   
+
+}
+
+
+
+.completed{
+    color: red;
+    
+    text-decoration: solid red line-through ;
+    
+}
+
+.back-button{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    left:70px;
+    
+}
+
+body{
+    position:absolute;
+    left:500px;
+    top:30px;
+}
+
+h1{
+   position: relative; 
+   left: 10px;
+   
+   text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+
+ 
+ h1 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .link{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: red;
+    border: 1px solid red;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    border-radius: 3px;
+    position:absolute;
+    right:100px;
+    padding:2px;
+    margin-top: 4px ;
+    
+    
+}
+
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+
